@@ -4,6 +4,7 @@
 
 This project implements a comprehensive relational database system for an e-commerce platform using MySQL. The database manages all core aspects of an online store including user accounts, product catalog, orders, payments, reviews, and promotions. The database has been populated with extensive sample data (20+ records in each major table) to demonstrate real-world usage scenarios.
 
+---
 ## Database Schema Design
 
 ### Entity-Relationship Diagram
@@ -28,7 +29,7 @@ Orders → Order Discounts (1:M)
 
 Discounts → Order Discounts (1:M)
 ```
-
+---
 ## Tables Structure
 
 The database includes 13 normalized tables with proper constraints:
