@@ -135,7 +135,7 @@ The database includes comprehensive sample records with realistic data:
 - Flexible discount and promotion system with usage limits
 
 ## Advanced Query Examples
-
+---
 ### Top Selling Products
 
 ```sql
@@ -191,7 +191,7 @@ JOIN categories c ON p.category_id = c.category_id
 GROUP BY c.category_id, c.name
 ORDER BY total_stock DESC;
 ```
-
+---
 ## Performance Optimization
 
 The database includes strategic indexes on frequently queried columns:
